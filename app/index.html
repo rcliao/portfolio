@@ -64,7 +64,7 @@
                 <span>Home</span>
               </a>
 
-              <a data-route="projects" href="/about">
+              <a data-route="about" href="/about">
                 <iron-icon icon="face"></iron-icon>
                 <span>About</span>
               </a>
@@ -72,11 +72,6 @@
               <a data-route="projects" href="/projects">
                 <iron-icon icon="assignment"></iron-icon>
                 <span>Portfolio</span>
-              </a>
-
-              <a data-route="reading" href="/reading">
-                <iron-icon icon="book"></iron-icon>
-                <span>Reading</span>
               </a>
           </paper-menu>
       </div>
@@ -116,7 +111,7 @@
                 <h2 class="paper-font-display2">Web is the future</h2>
 
                 <p>
-                  This website is built and powered by <a href="https://www.polymer-project.org/1.0/">Polymer</a> utilizing web components.
+                  This website is built and powered by <a href="https://www.polymer-project.org/1.0/">Polymer</a> and <a href="https://github.com">Github</a> pages.
                 </p>
               </paper-material>
             </section>
@@ -127,9 +122,9 @@
               </paper-material>
             </section>
 
-            <section data-route="reading">
+            <section data-route="about">
               <paper-material elevation="1">
-                <h2 class="paper-font-display2">Reading</h2>
+                <h2 class="paper-font-display2">About Me</h2>
               </paper-material>
             </section>
 
@@ -137,11 +132,6 @@
         </div>
       </paper-header-panel>
     </paper-drawer-panel>
-
-    <paper-toast id="caching-complete"
-                 duration="6000"
-                 text="Caching complete! This app will work offline.">
-    </paper-toast>
 
     <platinum-sw-register auto-register
                           clients-claim
